@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  background-color: #141414;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section */
+.menu-header {
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+
+.menu-header h1 {
+  font-family: 'Playfair Display', serif;
+  color: #c59d5f;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.menu-header p {
+  color: #ccc;
+  font-size: 1.1em;
+}
+
+/* Menu Grid */
+.menu-section {
+ background: url("../../images/shape-5.png");
+  padding: 50px 8%;
+}
+
+.menu-grid {
+    margin-top: 180px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 40px;
+}
+
+/* Menu Card */
+.menu-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: #1c1c1c;
+  transition: transform 0.4s ease;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.menu-card:hover img {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Overlay Hover Effect */
+.menu-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 20px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.menu-card:hover .menu-overlay {
+  transform: translateY(0);
+}
+h1
+{
+    font-family: 'Playfair Display', serif;
+  color: #c59d5f;
+  font-size: var(--fontSize-headline-1);
+  margin-bottom: 10px;
+}
+.menu-overlay h3 {
+  font-family: 'Playfair Display', serif;
+  color: #c59d5f;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.menu-overlay p {
+  color: #ccc;
+  font-size: 0.95em;
+  margin-bottom: 8px;
+}
+
+.menu-overlay span {
+  color: #fff;
+  background: #c59d5f;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+/* Card Hover Animation */
+.menu-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(197, 157, 95, 0.25);
+}
+.dish-type
+{
+    margin-top: 10%;
+    justify-items: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-header h1 {
+    font-size: 2.2em;
+  }
+  .menu-header p {
+    font-size: 0.95em;
+  }
+  .menu-card img {
+    height: 230px;
+  }
+}
+.menu-card {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+.menu-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}

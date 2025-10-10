@@ -1,0 +1,29 @@
+/*-----------------------------------*\
+  #SPECIAL DISH
+\*-----------------------------------*/
+
+.special-dish-content { padding-block: 70px; }
+
+.special-dish .abs-img {
+  margin-inline: auto;
+  margin-block-end: 12px;
+}
+
+.special-dish .section-text { margin-block: 16px 40px; }
+
+.special-dish-content .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-block-end: 40px;
+}
+
+.special-dish-content .del {
+  text-decoration: none;
+  color: var(--davys-grey);
+}
+
+.special-dish-content .span { color: var(--gold-crayola); }
+
+.special-dish .btn { margin-inline: auto; }

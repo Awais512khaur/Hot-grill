@@ -1,0 +1,52 @@
+/* Custom alert box */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500&display=swap');
+@import url(../home/root.css);
+.custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+  font-family: var(--fontFamily-forum);
+}
+.custom-alert-content {
+   font-size: var(--fontSize-label-2);
+  font-family: var(--fontFamily-forum);
+  background-color: #111;
+  color: #fff;
+  border: var(--gold-crayola); 
+  border-radius: 8px;
+  padding: 30px 50px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  box-shadow: 0 0 15px rgba(154, 140, 93, 0.5);
+  animation: fadeIn 0.4s ease;
+}
+.custom-alert-content button {
+  font-size: var(--fontSize-label-2);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  font-family: var(--fontFamily-forum);
+  margin-top: 20px;
+  background-color: var(--gold-crayola);
+  color: #000;
+  border-color: var(--gold-crayola);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.custom-alert-content button:hover {
+    border-color: var(--gold-crayola);
+  background-color: var(--black);
+  color: var(--white);
+}
+@keyframes fadeIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}

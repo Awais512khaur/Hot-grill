@@ -1,0 +1,65 @@
+.sponsor-section {
+  background-color: #1b1b1b;
+  text-align: center;
+  overflow: hidden;
+}
+
+.sponsor-title {
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  color: #c59d5f;
+  margin-bottom: 25px; 
+}
+
+.sponsor-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sponsor-track {
+  gap: 40px;
+  display: flex;
+  width: calc(200%);
+  animation: scroll 25s linear infinite;
+}
+
+.sponsor-track img {
+  width: 100px; 
+  margin: 0 25px; 
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.sponsor-track img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sponsor-title {
+    font-size: 1.5em;
+  }
+
+  .sponsor-track img {
+    width: 80px;
+    margin: 0 15px;
+  }
+
+  .sponsor-section {
+    padding: 30px 0;
+  }
+}
+.extra
+{
+      color: #1b1b1b
+}

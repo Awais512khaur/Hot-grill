@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Chef profiles </title>
+  <meta name="title" content="Hot Grill ">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/profile-main.css">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+<body id="top">
+  <!-- 
+    - #PRELOADER
+  -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Hot Grill</p>
+  </div>
+  <!-- 
+    - #TOP BAR
+  -->
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Saddar, Rawalpindi, Pakistan
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+92 3312099410" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+92 3312099410</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">awais.khaur34@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="Hot grill - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="160" height="50" alt="Hot grill - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline ">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="menu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about-us.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="profile.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Saddar, Rawalpindi<br>
+            Pakistan
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:awais.khaur34@gmail.com" class="body-4 sidebar-link">awais.khaur34@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+92 3312099410" class="body-1 contact-number hover-underline">
+            +92 3312099410
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="reservation.html" class="btn btn-secondary">
+        <span class="text text-1">Book A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Book A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+  <main>
+    <article>
+    <!-- 
+     Profile section
+  --> 
+     <section class="chef-section">
+  <div class="chef-header">
+    <h2>Meet Our Expert Chefs</h2>
+    <p>Our talented chefs create dishes that tell a story of taste, culture, and creativity.</p>
+  </div>
+
+  <div class="chef-container">
+    <!-- Chef Card 1 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/zubair.webp" alt="Chef 1">
+      <div class="chef-info">
+        <h3>Chef Zubair Khan</h3>
+        <p>Head Chef</p>
+        <a href="mailto:zubair.khan@hotgrill.com">zubair.khan@hotgrill.com</a>
+      </div>
+    </div>
+
+    <!-- Chef Card 2 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/ayesha.webp" alt="Chef 2">
+      <div class="chef-info">
+        <h3>Chef Ayesha Malik</h3>
+        <p>Pastry Specialist</p>
+        <a href="mailto:ayesha.malik@hotgrill.com">ayesha.malik@hotgrill.com</a>
+      </div>
+    </div>
+
+    <!-- Chef Card 3 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/bilal.webp" alt="Chef 3">
+      <div class="chef-info">
+        <h3>Chef Bilal Ahmed</h3>
+        <p>Italian Cuisine</p>
+        <a href="mailto:bilal.ahmed@hotgrill.com">bilal.ahmed@hotgrill.com</a>
+      </div>
+    </div>
+    <!-- Chef Card 4 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/sana.jpg" alt="Chef 4">
+      <div class="chef-info">
+        <h3>Chef Sana Fatima</h3>
+        <p>Grill Expert</p>
+        <a href="mailto:sana.fatima@hotgrill.com">sana.fatima@hotgrill.com</a>
+      </div>
+    </div>
+    <!-- Chef Card 5 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/imran.webp" alt="Chef 5">
+      <div class="chef-info">
+        <h3>Chef Imran Yousaf</h3>
+        <p>Seafood Specialist</p>
+        <a href="mailto:imran.yousaf@hotgrill.com">imran.yousaf@hotgrill.com</a>
+      </div>
+    </div>
+    <!-- Chef Card 6 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/maria.webp" alt="Chef 6">
+      <div class="chef-info">
+        <h3>Chef Maria Qureshi</h3>
+        <p>Dessert Artist</p>
+        <a href="mailto:maria.qureshi@hotgrill.com">maria.qureshi@hotgrill.com</a>
+      </div>
+    </div>
+
+    <!-- Chef Card 7 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/ahmed.jpg" alt="Chef 7">
+      <div class="chef-info">
+        <h3>Chef Ahmed Raza</h3>
+        <p>BBQ Specialist</p>
+        <a href="mailto:ahmed.raza@hotgrill.com">ahmed.raza@hotgrill.com</a>
+      </div>
+    </div>
+
+    <!-- Chef Card 8 -->
+    <div class="chef-card">
+      <img src="./assets/images/chefs-images/hine.webp" alt="Chef 8">
+      <div class="chef-info">
+        <h3>Chef Hina Aslam</h3>
+        <p>Asian Cuisine</p>
+        <a href="mailto:hina.aslam@hotgrill.com">hina.aslam@hotgrill.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Profile section end -->
+  <section class="sponsor-section">
+  <h2 class="sponsor-title">Our Proud Sponsors</h2>
+  <div class="sponsor-slider">
+    <div class="sponsor-track">
+      <img src="./assets/images/sponsors logo/dalda.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/kashmir.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/milkpack.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/national.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/olpers.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/shan.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/subroso.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/walls.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/hico.png" alt="sponsors">
+      <!-- duplicate for infinite loop -->
+      <img src="./assets/images/sponsors logo/dalda.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/kashmir.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/milkpack.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/national.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/olpers.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/shan.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/subroso.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/walls.png" alt="sponsors">
+      <img src="./assets/images/sponsors logo/hico.png" alt="sponsors">
+    </div>
+  </div>
+  <h1 class="extra" >AS</h1>
+</section>
+    </article>
+  </main>
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+         <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="160" height="50" loading="lazy" alt="hot grill home">
+          </a>
+
+          <address class="body-4">
+            Saddar, Rawalpindi, Pakistan
+          </address>
+
+          <a href="mailto:awais.khaur34@gmail.com" class="body-4 contact-link">awais.khaur34@gmail.com</a>
+
+          <a href="tel:+92 3312099410" class="body-4 contact-link">Booking Request : +92 3312099410</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="menu.html" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="about-us.html" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="profile.html" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2025 Hot Grill. All Rights Reserved | <a href="https://awais512khaur.github.io/Portfolio/index.html"
+            target="_blank" class="link">Muhammad Awais</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- 
+    - #BACK TO TOP
+  -->
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+  <!-- 
+    - custom js link
+  -->
+<script src="./assets/js/script.js"></script>
+<script src="./assets/js/chef-profile.js" ></script>
+<script src="./assets/js/sponsor-carosal.js" ></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
