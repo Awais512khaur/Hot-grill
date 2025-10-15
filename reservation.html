@@ -94,101 +94,73 @@
   -->
   <header class="header" data-header>
     <div class="container">
-
       <a href="#" class="logo">
         <img src="./assets/images/logo.png" width="160" height="50" alt="Hot grill - Home">
       </a>
-
       <nav class="navbar" data-navbar>
-
         <button class="close-btn" aria-label="close menu" data-nav-toggler>
           <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
-
         <a href="#" class="logo">
           <img src="./assets/images/logo.png" width="160" height="50" alt="Hot grill - Home">
         </a>
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
             <a href="index.html" class="navbar-link hover-underline">
               <div class="separator"></div>
-
               <span class="span">Home</span>
             </a>
           </li>
-
           <li class="navbar-item">
             <a href="menu.html" class="navbar-link hover-underline">
               <div class="separator"></div>
               <span class="span">Menus</span>
             </a>
           </li>
-
           <li class="navbar-item">
             <a href="about-us.html" class="navbar-link hover-underline">
               <div class="separator"></div>
-
               <span class="span">About Us</span>
             </a>
           </li>
-
           <li class="navbar-item">
             <a href="profile.html" class="navbar-link hover-underline">
               <div class="separator"></div>
-
               <span class="span">Our Chefs</span>
             </a>
           </li>
-
           <li class="navbar-item">
             <a href="contact.html" class="navbar-link hover-underline">
               <div class="separator"></div>
-
               <span class="span">Contact</span>
             </a>
           </li>
-
         </ul>
-
         <div class="text-center">
           <p class="headline-1 navbar-title">Visit Us</p>
-
           <address class="body-4">
             Saddar, Rawalpindi <br>
             Pakistan
           </address>
-
           <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
-
           <a href="mailto:awais.khaur34@gmail.com" class="body-4 sidebar-link">awais.khaur34@gmail.com</a>
-
           <div class="separator"></div>
-
           <p class="contact-label">Booking Request</p>
-
           <a href="tel:+92 3312099410" class="body-1 contact-number hover-underline">
             +92 3312099410
           </a>
         </div>
-
       </nav>
-
       <a href="reservation.html" class="btn btn-secondary">
         <span class="text text-1">Book A Table</span>
-
         <span class="text text-2" aria-hidden="true">Book A Table</span>
       </a>
-
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <span class="line line-1"></span>
         <span class="line line-2"></span>
         <span class="line line-3"></span>
       </button>
-
       <div class="overlay" data-nav-toggler data-overlay></div>
-
     </div>
   </header>
   <main>
@@ -205,13 +177,14 @@
                 or fill out the booking form
               </p>
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                <input type="text" name="name" placeholder="Your Name" class="input-field" required >
+                <input type="tel" name="phone" placeholder="Phone Number" class="input-field" required >
               </div>
               <div class="input-wrapper">
                 <div class="icon-wrapper">
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                  <select name="person" class="input-field">
+                  <select name="person" class="input-field" required >
+                    <option >No of Persons</option>
                     <option value="1-person">1 Person</option>
                     <option value="2-person">2 Person</option>
                     <option value="3-person">3 Person</option>
@@ -224,12 +197,12 @@
                 </div>
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-                  <input type="date" name="reservation-date" class="input-field">
+                  <input type="date" name="reservation-date" class="input-field" required >
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
                 <div class="icon-wrapper">
                   <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-                  <select name="person" class="input-field">
+                  <select name="person" class="input-field" required >
                     <option value="08:00am">08 : 00 am</option>
                     <option value="09:00am">09 : 00 am</option>
                     <option value="010:00am">10 : 00 am</option>
@@ -249,51 +222,36 @@
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
               </div>
-              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+              <textarea name="message" placeholder="Message" class="input-field" required ></textarea>
               <button type="submit" class="btn-reserve btn btn-secondary"  >
                 <span class="text text-1"  >Book A Table</span>
                 <span class="text text-2" aria-hidden="true">Book A Table</span>
               </button>
             </form>
-
             <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
-
               <h2 class="headline-1 text-center">Contact Us</h2>
-
               <p class="contact-label">Booking Request</p>
-
-              <a href="tel:+92 3312099410" class="body-1 contact-number hover-underline">+92 3312099410</a>
-
+              <a href="tel:+92-3312099410" class="body-1 contact-number hover-underline">+92 3312099410</a>
               <div class="separator"></div>
-
               <p class="contact-label">Location</p>
-
               <address class="body-4">
                 Saddar, Rawalpindi <br>
                 Pakistan
               </address>
-
               <p class="contact-label">Lunch Time</p>
-
               <p class="body-4">
                 Monday to Sunday <br>
                 11.00 am - 2.30pm
               </p>
-
               <p class="contact-label">Dinner Time</p>
-
               <p class="body-4">
                 Monday to Sunday <br>
                 05.00 pm - 10.00pm
               </p>
-
             </div>
-
           </div>
-
         </div>
       </section>
-
     </article>
   </main>
     <!-- Custom Alert -->

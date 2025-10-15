@@ -25,8 +25,7 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/Home-main.css">
-
+  <link rel="stylesheet" type="text/css" href="./assets/css/about-us-main.css"  >
   <!-- 
     - preload images
   -->
@@ -94,109 +93,156 @@
   -->
   <header class="header" data-header>
     <div class="container">
-
       <a href="#" class="logo">
         <img src="./assets/images/logo.png" width="160" height="50" alt="Hot grill - Home">
       </a>
-
       <nav class="navbar" data-navbar>
-
         <button class="close-btn" aria-label="close menu" data-nav-toggler>
           <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
-
         <a href="#" class="logo">
           <img src="./assets/images/logo.png" width="160" height="50" alt="Hot grill - Home">
         </a>
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <a href="index.html" class="navbar-link hover-underline active">
+            <a href="index.html" class="navbar-link hover-underline ">
               <div class="separator"></div>
-
               <span class="span">Home</span>
             </a>
           </li>
-
           <li class="navbar-item">
             <a href="menu.html" class="navbar-link hover-underline">
               <div class="separator"></div>
               <span class="span">Menus</span>
             </a>
           </li>
-
           <li class="navbar-item">
-            <a href="about-us.html" class="navbar-link hover-underline">
+            <a href="about-us.html" class="navbar-link hover-underline active">
               <div class="separator"></div>
-
               <span class="span">About Us</span>
             </a>
           </li>
-
           <li class="navbar-item">
             <a href="profile.html " class="navbar-link hover-underline">
               <div class="separator"></div>
-
               <span class="span">Our Chefs</span>
             </a>
           </li>
-
           <li class="navbar-item">
             <a href="contact.html" class="navbar-link hover-underline">
               <div class="separator"></div>
-
               <span class="span">Contact</span>
             </a>
           </li>
-
         </ul>
-
         <div class="text-center">
           <p class="headline-1 navbar-title">Visit Us</p>
-
           <address class="body-4">
             Saddar, Rawalpindi <br>
             Pakistan
           </address>
-
           <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
-
           <a href="mailto:awais.khaur34@gmail.com" class="body-4 sidebar-link">awais.khaur34@gmail.com</a>
-
           <div class="separator"></div>
-
           <p class="contact-label">Booking Request</p>
-
           <a href="tel:+92 3312099410" class="body-1 contact-number hover-underline">
             +92 3312099410
           </a>
         </div>
-
       </nav>
-
       <a href="reservation.html" class="btn btn-secondary">
         <span class="text text-1">Book A Table</span>
-
         <span class="text text-2" aria-hidden="true">Book A Table</span>
       </a>
-
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <span class="line line-1"></span>
         <span class="line line-2"></span>
         <span class="line line-3"></span>
       </button>
-
       <div class="overlay" data-nav-toggler data-overlay></div>
-
     </div>
   </header>
   <main>
     <article>
-   
-        <!-- Add you contect in this area in section tags -->
-
-
+   <!-- About section start -->
+     <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="about-container  container">
+          <div class="about-content">
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+            <h2 class="headline-1 section-title">Every Flavor Tells a Story</h2>
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+              industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
+              it to make a type specimen book It has survived not only five centuries, but also the leap into.
+            </p>
+            <div class="contact-label">Book Through Call</div>
+            <a href="tel:+92 3312099410" class="body-1 contact-number hover-underline">+92-343-3838917</a>
+          </div>
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+          </figure>
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+        </div>
+      </section>
+   <!-- About section end -->
+    <!--Feature section start-->
+       <section class="section features text-center" aria-label="features">
+        <div class="container">
+          <p class="section-subtitle label-2">Why Choose Us</p>
+          <h2 class="headline-1 section-title">Our Strength</h2>
+          <ul class="grid-list">
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+              </div>
+            </li>
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Fresh Environment</h3>
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+              </div>
+            </li>
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Skilled Chefs</h3>
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+              </div>
+            </li>
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Event & Party</h3>
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+              </div>
+            </li>
+          </ul>
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+        </div>
+      </section>
+    <!-- Feature section end -->
     </article>
   </main>
   <!-- 

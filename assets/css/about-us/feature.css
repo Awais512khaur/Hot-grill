@@ -1,0 +1,18 @@
+/*-----------------------------------*\
+  #FEATURES
+\*-----------------------------------*/
+.features .section-title { margin-block-end: 40px; }
+.feature-card { padding: 30px 20px 40px; }
+.feature-item:nth-child(2n+1) .feature-card { background-color: var(--eerie-black-3); }
+.feature-item:nth-child(2n) .feature-card { background-color: var(--smoky-black-3); }
+.feature-card .card-icon {
+  max-width: max-content;
+  margin-inline: auto;
+  transition: var(--transition-2);
+}
+.feature-card:hover .card-icon { transform: scale(-1) rotate(180deg); }
+.feature-card .card-title { margin-block: 20px; }
+.feature-card .card-text {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-6);
+}
